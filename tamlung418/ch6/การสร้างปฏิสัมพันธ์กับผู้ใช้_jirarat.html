@@ -21,22 +21,29 @@
 
 		<img id="drag1" src="images/kritty.jpg" draggable="true" ondragstart="drag(event)"
 		width="400" height="600" border="2">
-		
+
 		<!-- JAVA SCRIPT Code-->
 		<script>
 		function allowDrop(ev) {
 			ev.preventDefault();
 		}
-		
+
 		function drag(ev) {
 			ev.dataTransfer.setData("text",ev.target.id);
 		}
-		
+
 		function drop(ev) {
 			ev.preventDefault();
 			var data = ev.dataTransfer.getData("text");
 			ev.target.appendChild(document.getElementById(data));
 		}
 		</script>
+
+		<div style="margin-top:20px;text-align:center;">
+			<nav align="center" style="color:black;">
+				<h2>Menu</h2>
+			 <a style="font-size: 20px;color: black;" href="../index.html">กลับหน้าหลัก</a>
+			 </nav>
+		</div>
 </body>
 </html>
