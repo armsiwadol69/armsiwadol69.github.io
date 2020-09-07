@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<title>cp8_Positioning</title>
+	<style>
+		body {
+			font-family: 'Athiti', sana-serif;
+			font-size: 20px;White;
+		}
+		.box {
+			display: inline-block;
+			background-color: PaleGreen;
+			width: 140px;
+			height: 140px;
+			float: left;
+			margin: 20px;
+			color: black;
+		}
+		#two {
+			position: MediumTurquoise;
+			top: 20px;
+			left: 20px;
+		}
+		</style>
+	</head>
+	<body>
+		<!-- HTML Document -->
+		<h1>การกำหนดตำแหน่งแบบ Relative Position</h1>
+		<div class="box" id="one">One</div>
+		<div class="box" id="two">Two</div>
+		<div class="box" id="three">Three</div>
+		<div class="box" id="four">Four</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+		<h1>การกำหนดการจัดวางแนวตั้งหรือ Vertical-Align</h1>
+		นี่เป็นข้อความจัดวางตามปกติ<br/>
+		<font style="position:relative; left:-50px">เลื่อนไปทางซ้าย 50px</font><br/>
+		<font style="position:relative; right:50px">เลื่อนไปทางซ้าย 50px</font><br/>
+		<font style="position:relative; left:50px">เลื่อนไปทางขวา 50px</font><br/>
+		<font style="position:relative; right:-50px">เลื่อนไปทางขวา 50px</font><br/>
+		<font style="position:relative; left:50px; color:Turquoise">เลื่อนไปทางขวา 50px</font>
+		<font style="position:relative; left:50px; color:DodgerBlue">เลื่อนไปทางขวา 50px</font>
+		<font style="position:relative; top:-25px; color:LightSlateBlue">เลื่อนไปขึ้นบน -25px</font>
+		<font style="position:relative; top:25px; color:CornflowerBlue">เลื่อนไปขึ้นบน 25px</font>
+	<br/>
+		<h3>Example position: absolute</h3>
+		นี่เป็นข้อความจัดวางตามปกติ<br/>
+		<font style="position:absolute; left:200px; color:Firebrick; background-color:#006400">
+		จัดให้ห่างจากขอบซ้าย 200px (ข้อความนี้จัดแบบ Absolute)</font><br/><br/>
+		<font style="position:absolute; right:200px; color:Sienna; background-color:#6B8E23">
+		จัดให้ห่างจากขอบซ้าย 200px (ข้อความนี้จัดแบบ Absolute)</font><br/><br/>
+
+	</body>
+</html>

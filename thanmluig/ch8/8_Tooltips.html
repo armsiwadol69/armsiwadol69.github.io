@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<title>cp8_Tooltips</title>
+	<style>
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 2px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 370px;
+		background-color: gray;
+		color: #fff;
+		text-align: left;
+		border-radius: 5px;
+		padding: 5px 0;
+
+	/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+	
+	@import url('https://font.googleapis.com/css?family=Athiti|Chonburi');
+	body {
+		font-family: 'Athiti', sans-serif;
+		font-size: 18px;
+		}
+	
+	h4 {
+		font-size: 16px; font-family: "Trebuchet MS", Verdana; line-height:18px;
+		}
+	
+</style>
+</head>
+<body topmargin="30" leftmargin="30" bgcolor = "#FFFFFF" tomargin="30" leftmargin="20">
+	<div>
+	<h2>Example Tooltip</h2>
+	<!-- Insert Tag This Here-->
+	
+	</div>
+		<h4>tooltip.pop(targetElement, text [, options])</h4>
+			<div class="tooltip">Hover me This is Show TEXT
+				<span class="tooltiptext">  Tooltip text : <br/>
+				  A tooltip is often used to specify extra <br/>
+				  information about something when the user <br/>
+				  moves the mouse pointer over an element:</span>
+			</div>
+		<br/><br/>
+			<div class="tooltip">Show Picture and Content
+				<span class="tooltiptext">  
+				<img src="images/Code.jpg" width="90%"/>
+				Example by www.w3schools.com</span>
+			</div>
+	
+</body>
+</html>
