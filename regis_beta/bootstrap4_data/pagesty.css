@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(0deg, rgba(34,193,195,0.3) 0%, rgba(167,45,253,0.3) 100%),url('../img/oversky3.jpg');
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(167,45,253,1) 100%);
 	background-size: 110% ;
 	animation: gradient 20s ease infinite;
 	background-attachment: fixed;
